@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Browser" value="Chrome"></parameter>
+    <test verbose="2" preserve-order="true" name="test1">
+        <classes>
+            <class name="testCases.HomePageTestCases"></class>
+            <class name="testCases.UserAccountTestCases"/>
+            <class name="testCases.UserAccountNegativeTestCases"/>
+        </classes>
+
+    </test>
+<!--    <test verbose="2" preserve-order="true" name="test2">-->
+<!--        <classes>-->
+<!--            <class name="testCases.UserAccountTestCases"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
